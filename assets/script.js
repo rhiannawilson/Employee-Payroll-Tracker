@@ -1,5 +1,5 @@
 // Collect Employees Function
-  // Create an array to hold employee data (done)
+  // Create an array to hold employee data 
   // Loop until the user chooses to stop
   // Get user input for an employee
   // If salary is not a number set it to zero
@@ -29,13 +29,15 @@
 // div class="card-footer">
 // button id="add-employees-btn" class="btn">Add Employees</button>
 
-
+// THIS IS AN OBJECT - properties and values, methods inside curly braces
 // {
 //   name: "juan",
 //   school: "edx",
 //   hobby: "baseball"
 // }
 
+
+// THIS IS AN OBJECT - properties and values, methods inside curly braces
 // let example = {
 //   name: "juan",
 //   school : "edx",
@@ -75,21 +77,35 @@ const collectEmployees = function() {
   let salaryInput = prompt ("What is your salary");
 
 
-  let employyeObject = {
+  let employeeObject = {
     firstName: firstNameInput,
     lastName: lastNameInput,
     salary: salaryInput
   }
-  console.log(employyeObject)
+  // console.log(employeeObject)
 
-  employeeList.push(employyeObject)
-  console.log(employeeList)
-
-  let reRunQuestions = confirm("do you want to add another employye?");
-  console.log(reRunQuestions)
-
+  employeeList.push(employeeObject)
+  // console.log(employeeList)
   return employeeList;
 }
+
+
+let reRunQuestions = confirm("do you want to add another employee?"); {
+// console.log(reRunQuestions)
+ if (reRunQuestions) isTrue = true 
+  console.log ("user pressed ok")
+  while 
+  (reRunQuestions) isFalse = false; {
+    let = 0
+
+while (count <= 5) {
+  console.log(count);
+  count++;
+};
+}
+
+
+
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
