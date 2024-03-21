@@ -1,7 +1,7 @@
 // Collect Employees Function
-  // Create an array to hold employee data 
-  // Loop until the user chooses to stop
-  // Get user input for an employee
+  // Create an array to hold employee data (DONE)
+  // Loop until the user chooses to stop (DONE)
+  // Get user input for an employee (DONE)
   // If salary is not a number set it to zero
   // Create an employee object
   // Convert the salary to a float
@@ -57,15 +57,9 @@
 
 
 
-
-
-
-
-
-
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
-console.log (addEmployeesBtn)
+// console.log (addEmployeesBtn)
 
 // Collect employee data
 const collectEmployees = function() {
@@ -87,30 +81,35 @@ const collectEmployees = function() {
   employeeList.push(employeeObject)
   // console.log(employeeList)
   return employeeList;
+
 }
 
 
-let reRunQuestions = confirm("do you want to add another employee?"); {
+let reRunQuestions = confirm("Do you want to add another employee?"); {
 // console.log(reRunQuestions)
- if (reRunQuestions) isTrue = true 
-  console.log ("user pressed ok")
-  while 
-  (reRunQuestions) isFalse = false; {
-    let = 0
+ if (reRunQuestions==1)
+ confirm.reRunQuestions = true
+else 
+ (reRunQuestions==0);
+ confirm.reRunQuestions = false;
+ console.log(reRunQuestions)
 
-while (count <= 5) {
-  console.log(count);
-  count++;
-};
+// while  
+// (reRunQuestions) isFalse = false; {
+//  let = 0
+
+// while (count <= 5) {
+//  console.log(count);
+//  count++;
 }
 
 
 
 
 // Display the average salary
-const displayAverageSalary = function(employeesArray) {
-  // TODO: Calculate and display the average salary
-}
+    function displayAverageSalary(employeesArray) {
+      // TODO: Calculate and display the average salary
+    }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
