@@ -23,8 +23,8 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 HTML CSS & JavaScript
 Employee Roster System
 
-Credits
+## Credits
 N/A
 
-License
+## License
 Please refer to the LICENSE in the repo
