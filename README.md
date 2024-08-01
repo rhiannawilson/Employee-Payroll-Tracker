@@ -6,7 +6,6 @@ This app runs in the browser and will feature dynamically updated HTML and CSS p
 
 ### Table of Contents:
 - [Description](#description)
-- [Video Demo](#walkthrough-video)
 - [Directory Structure](#directory-structure)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
