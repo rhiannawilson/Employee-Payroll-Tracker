@@ -1,4 +1,4 @@
-# Employee-Payroll-Tracker 
+# Employee Salary Management System
 ## Description
 A payroll manager to view and manage employee payroll data application. 
 This app runs in the browser and will feature dynamically updated HTML and CSS powered by JavaScript with a clean and polished, responsive user interface that adapts to multiple screen sizes.
