@@ -1,5 +1,4 @@
-# Employee-Payroll-Tracker
-
+# Employee-Payroll-Tracker 
 ## Description
 A payroll manager to view and manage employee payroll data application. 
 This app runs in the browser and will feature dynamically updated HTML and CSS powered by JavaScript with a clean and polished, responsive user interface that adapts to multiple screen sizes.
@@ -10,7 +9,7 @@ This app runs in the browser and will feature dynamically updated HTML and CSS p
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Appearance & Functionality](#appearance--functionality) 
-- [Usage & Technical Details](#usage--instructions)
+- [Usage & Website Features](#usage)
 - [Contributions](#contributions)
 - [Credits](#credits)
 - [License](#license)
@@ -18,11 +17,17 @@ This app runs in the browser and will feature dynamically updated HTML and CSS p
 
 ## Directory Structure
 ```  
-├── CMSify
-    ├─
-    ├──
+├── WK3Challenge-EmployeePayrollTracker
+    ├─ assets/
+        ├── css/
+            ├── style.css
+        ├── img/
+            ├── EmployeePayrollTracker.png
+        ├── js/
+            ├── script.js        
+    ├── index.html
+    ├── LICENSE
     └── README.md   
-
 ```
 
 ### User Story
@@ -47,21 +52,14 @@ THEN my employee data is displayed on the page sorted alphabetically by last nam
 [Back to Table of Contents](#table-of-contents)
 
 ## Appearance & Functionality 
-#### View All Departments Example
->![View All Departments Example](./assets/Example%20of%20View%20All%20Departments.png)
+>![View List of Employees added](./assets/img/EmployeePayrollTracker.png)
 
-#### View All Roles Example
->![View All Roles Example](./assets/Example%20of%20View%20All%20Roles.png)
-
-#### View All Employees Example
->![View All Employees Example](./assets/Example%20View%20All%20Employees.png)
-
-[Back to Table of Contents](#table-of-contents)
-
-## Usage
+## Usage 
 ### Website Features
-HTML CSS & JavaScript
-Employee Roster System
+> HTML 
+> CSS 
+> JavaScript
+> Employee Roster System
 
 ## Credits
 N/A
@@ -84,5 +82,5 @@ N/A
 ## Author
 @ Rhianna Wilson
 [rhiannawilson](https://github.com/rhiannawilson)
-[Back to Table of Contents](#table-of-contents)
+> [Back to Table of Contents](#table-of-contents)
 
